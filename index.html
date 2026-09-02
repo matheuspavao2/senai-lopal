@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Lopal - Senai</h1>
+    <script> 
+    // console.log ("Olá, você!") -> quando o texto está comentado o código não é executado.
+    // alert ("Olá, você!")
+
+    // Operacoes basicas
+
+    let num_one = Number(prompt("Digite o primeiro número")) // -> prompt é uma função que cria uma caixa de texto e retorna um valor em texto (string); além de armazená-lo
+    let num_two = Number(prompt("Digite o primeiro número")) // -> o number é uma função que converte o texto (string) em um valor numerico.
+    let sum = num_one + num_two
+    let div = num_one / num_two
+    let sub = num_one - num_two
+    let multip = num_one * num_two
+
+    // Raiz quadrada
+    let num_raiz = Number(prompt("Digite o número que deseja calcular na raíz quadrada"))
+    let teste = Math.sqrt(num_raiz) // -> É importante criar a variavel num_raiz para que seja o valor retornado.
+
+    // Typeof e identificação de variaveis 
+    console.log (typeof num_one) // -> typeof é um operador que descobre o tipo de uma variável em js.
+    console.log (typeof num_one)
+    console.log (typeof teste) 
+
+    alert(`soma ${sum}`)
+    alert(`divisão ${div}`)
+    alert(`subtração ${sub}`)
+    alert(`multiplicação ${multip}`)
+    alert (`resultado da sua raíz quadrada ${teste}`)
+    </script>
+    </body>
+</html>
